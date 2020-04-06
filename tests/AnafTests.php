@@ -2,7 +2,6 @@
 
 namespace Andali\Anaf\Tests;
 
-use Andali\Anaf\Exceptions\InvalidCui;
 use Andali\Anaf\Facades\Anaf;
 use stdClass;
 
