@@ -24,12 +24,6 @@ Response
 ```json
 {"cui":38744563,"data":"2020-02-20","denumire":"ANDALI SOLUTIONS PRO S.R.L.","adresa":"JUD. ARGEŞ, SAT LEREŞTI COM. LEREŞTI, STR. ŞOTCAN, NR.940, ET.PARTER","scpTVA":false,"data_inceput_ScpTVA":"","data_sfarsit_ScpTVA":"","data_anul_imp_ScpTVA":"","mesaj_ScpTVA":"nu figureaza in registre ","dataInceputTvaInc":"","dataSfarsitTvaInc":"","dataActualizareTvaInc":"","dataPublicareTvaInc":"","tipActTvaInc":"","statusTvaIncasare":false,"dataInactivare":" ","dataReactivare":" ","dataPublicare":" ","dataRadiere":" ","statusInactivi":false,"dataInceputSplitTVA":"","dataAnulareSplitTVA":"","statusSplitTVA":false}
 ```
-Validate CUI
-```php
-use Andali\Anaf\Facades\Anaf;
-
-Anaf::validateCui('38744563') - return bool;
-```
 
 ## Changelog
 

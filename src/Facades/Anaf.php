@@ -5,7 +5,6 @@ namespace Andali\Anaf\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method static string validateCui(string $cui)
  * @method static string info(string $cui)
  */
 class Anaf extends Facade
