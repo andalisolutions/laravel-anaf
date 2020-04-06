@@ -2,7 +2,6 @@
 
 namespace Andali\Anaf;
 
-use Andali\Anaf\Exceptions\InvalidCui;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Str;
