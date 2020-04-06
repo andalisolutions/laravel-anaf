@@ -11,11 +11,12 @@
         }
     ],
     "homepage": "https://github.com/andalisolutions/laravel-anaf",
-    "keywords": ["Laravel", "Laravel ANAF", "ANAF CUI", "CIF"],
+    "keywords": ["Laravel", "Laravel ANAF", "ANAF CIF", "CIF"],
     "require": {
         "illuminate/support": "^7.0",
         "ext-json" : "*",
-        "guzzlehttp/guzzle": "^6.5"
+        "guzzlehttp/guzzle": "^6.5",
+        "php": "^7.4"
     },
     "require-dev": {
         "mockery/mockery": "^1.0",
