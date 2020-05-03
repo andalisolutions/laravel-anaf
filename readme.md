@@ -3,7 +3,7 @@ Web service for get info about taxpayers who are registered according to art. 31
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Build Status][ico-build]][link-build]
-[![StyleCI][ico-styleci]][link-styleci]
+[![Code Style](https://github.com/andalisolutions/laravel-anaf/workflows/Code%20Style/badge.svg)](https://github.com/andalisolutions/laravel-anaf/actions?query=workflow%3A%22Code+Style%22)
 [![Quality Score][ico-scrutinizer]][link-scrutinizer]
 [![Total Downloads][ico-downloads]][link-downloads]
 ## Installation
