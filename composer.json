@@ -1,46 +1,56 @@
 {
-    "name": "andalisolutions/laravel-anaf",
-    "description": "Web service for verifying taxpayers who are registered according to art. 316 of the Romanian Fiscal Code",
-    "license": "MIT",
-    "authors": [
+    "name" : "andalisolutions/laravel-anaf",
+    "description" : "Web service for verifying taxpayers who are registered according to art. 316 of the Romanian Fiscal Code",
+    "license" : "MIT",
+    "authors" : [
         {
-            "name": "Andrei Ciungulete",
-            "email": "andrei.ciungulete@andali.ro",
-            "homepage": "http://www.andali.ro",
+            "name" : "Andrei Ciungulete",
+            "email" : "andrei.ciungulete@andali.ro",
+            "homepage" : "http://www.andali.ro",
             "role" : "developer"
         }
     ],
-    "homepage": "https://github.com/andalisolutions/laravel-anaf",
-    "keywords": ["Laravel", "Laravel ANAF", "ANAF CIF", "CIF"],
-    "require": {
-        "illuminate/support": "^7.0",
+    "homepage" : "https://github.com/andalisolutions/laravel-anaf",
+    "keywords" : [
+        "Laravel",
+        "Laravel ANAF",
+        "ANAF CIF",
+        "CIF"
+    ],
+    "require" : {
+        "illuminate/support" : "^7.0",
         "ext-json" : "*",
-        "guzzlehttp/guzzle": "^6.5",
-        "php": "^7.4"
+        "guzzlehttp/guzzle" : "^6.5",
+        "php" : "^7.4"
     },
-    "require-dev": {
-        "mockery/mockery": "^1.0",
-        "orchestra/testbench": "^5.0",
-        "friendsofphp/php-cs-fixer": "^2.16"
+    "require-dev" : {
+        "mockery/mockery" : "^1.0",
+        "orchestra/testbench" : "^5.0",
+        "friendsofphp/php-cs-fixer" : "^2.16"
     },
-    "autoload": {
-        "psr-4": {
-            "Andali\\Anaf\\": "src/"
+    "autoload" : {
+        "psr-4" : {
+            "Andali\\Anaf\\" : "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Andali\\Anaf\\Tests\\": "tests"
+    "autoload-dev" : {
+        "psr-4" : {
+            "Andali\\Anaf\\Tests\\" : "tests"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
+    "extra" : {
+        "laravel" : {
+            "providers" : [
                 "Andali\\Anaf\\AnafServiceProvider"
             ],
-            "aliases": {
-                "Anaf": "Andali\\Anaf\\Facades\\Anaf"
+            "aliases" : {
+                "Anaf" : "Andali\\Anaf\\Facades\\Anaf"
             }
         }
+    },
+    "scripts" : {
+        "format" : [
+            "vendor/bin/php-cs-fixer fix"
+        ]
     }
 }
